@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="uz-Cyrl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d0b0b" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Miss Milli🍋ns — Тантанали очилиш</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Manrope:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="locked">
+  <audio id="bgMusic" loop preload="none">
+    <source src="assets/music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <div class="petal-rain" id="petalRain" aria-hidden="true"></div>
+
+  <button class="sound-btn" id="soundBtn" aria-label="Мусиқани ёқиш ёки ўчириш" hidden>
+    <span class="sound-icon">♪</span>
+  </button>
+
+  <section class="gate" id="gate" aria-label="Таклифномани очиш">
+    <div class="gate-noise"></div>
+    <div class="gate-aura aura-one"></div>
+    <div class="gate-aura aura-two"></div>
+    <img src="assets/pearl.png" class="gate-pearl float a" alt="" />
+    <img src="assets/diamond.png" class="gate-diamond float b" alt="" />
+
+    <div class="gate-copy">
+      <p class="eyebrow">GRAND OPENING</p>
+      <h1 class="brand">Miss Milli<span class="lemon">🍋</span>ns</h1>
+      <p class="gate-sub">Тантанали очилиш маросими</p>
+      <div class="tiny-rule"></div>
+      <p class="gate-date">22 • 09 • 2026 &nbsp;&nbsp; 13:00</p>
+    </div>
+
+    <div class="ribbon-stage" id="ribbonStage">
+      <div class="ribbon-wrap left" id="ribbonLeft"><div class="ribbon"></div></div>
+      <div class="ribbon-wrap right" id="ribbonRight"><div class="ribbon"></div></div>
+      <div class="seal">MM</div>
+      <img class="scissors" id="scissors" src="assets/scissors.png" alt="Олтин қайчи" />
+      <div class="cut-spark" id="cutSpark"></div>
+    </div>
+
+    <button id="openBtn" class="open-btn" type="button">
+      <span class="scissor-mark">✂</span>
+      <span>ЛЕНТАНИ КЕСИШ</span>
+    </button>
+    <p class="hint">Таклифномани очиш учун босинг</p>
+  </section>
+
+  <main id="invite" aria-hidden="true">
+    <section class="hero section dark">
+      <div class="lux-glow glow-1"></div>
+      <div class="lux-glow glow-2"></div>
+      <div class="hero-orbit orbit-a"></div>
+      <div class="hero-orbit orbit-b"></div>
+      <img src="assets/orchid.png" class="decor orchid parallax" data-speed=".12" alt="" />
+      <img src="assets/perfume.png" class="decor perfume parallax" data-speed="-.09" alt="" />
+      <img src="assets/lipstick.png" class="decor lipstick parallax" data-speed=".16" alt="" />
+      <img src="assets/lemon.png" class="decor lemon-fruit parallax" data-speed="-.11" alt="" />
+      <div class="hero-inner reveal">
+        <p class="eyebrow">СИЗНИ ТАКЛИФ ЭТАМИЗ</p>
+        <h2 class="hero-title brand-font">Miss</h2>
+		<h2 class="hero-title brand-font">Milli<span>🍋</span>ns</h2>
+        <p class="hero-kicker">гўзаллик салонининг</p>
+        <p class="hero-opening">ТАНТАНАЛИ ОЧИЛИШИ</p>
+        <div class="hero-date">
+          <div><b>22</b><span>СЕНТЯБРЬ</span></div>
+          <i></i>
+          <div><b>13:00</b><span>СОАТ</span></div>
+        </div>
+        <div class="scroll-cue"><span></span><small>пастга суринг</small></div>
+      </div>
+    </section>
+
+    <section class="welcome section ivory">
+      <img src="assets/white-flower.png" class="decor flower-left parallax" data-speed=".09" alt="" />
+      <img src="assets/petal.png" class="decor petal p1" alt="" />
+      <img src="assets/petal.png" class="decor petal p2" alt="" />
+      <img src="assets/chain.png" class="decor chain parallax" data-speed="-.05" alt="" />
+      <div class="content narrow reveal">
+        <span class="section-num">01</span>
+        <p class="eyebrow burgundy">АЗИЗ МЕҲМОНИМИЗ!</p>
+        <h3>Гўзалликка бағишланган янги саҳифа</h3>
+        <p class="lead">Сизни <strong>Miss Milli🍋ns</strong> гўзаллик салонининг тантанали очилиш маросимига таклиф этамиз.</p>
+        <p>Биз билан бирга янги саҳифанинг илк кунига гувоҳ бўлинг ва гўзаллик, нафосат ҳамда илиқ кайфиятга тўла ушбу кунни биргаликда қарши олинг.</p>
+        <div class="gem-line"><span></span><img src="assets/diamond.png" alt="" /><span></span></div>
+      </div>
+    </section>
+
+    <section class="portrait section">
+      <div class="portrait-bg"></div>
+      <div class="portrait-frame reveal">
+        <img src="assets/shahnoza.png" alt="Шаҳноза" class="portrait-img" />
+        <div class="portrait-vignette"></div>
+        <img src="assets/pearl.png" class="decor pearl-big parallax" data-speed=".10" alt="" />
+        <img src="assets/mirror.png" class="decor mirror-small parallax" data-speed="-.13" alt="" />
+      </div>
+      <div class="portrait-copy reveal">
+        <p class="eyebrow">СИЗНИ КУТИБ ҚОЛАМАН</p>
+        <h3>Бу кун мен учун алоҳида.</h3>
+        <p>Ушбу муҳим кунни Сиз билан бирга нишонлаш мен учун катта мамнуният. Ташрифингиз байрамимизни янада файзли қилади.</p>
+        <div class="signature"><span>Ҳурмат билан,</span><strong>Шаҳноза</strong></div>
+      </div>
+    </section>
+
+    <section class="date-scene section dark">
+      <img src="assets/hairdryer.png" class="decor dryer parallax" data-speed=".14" alt="" />
+      <img src="assets/brushes.png" class="decor brushes parallax" data-speed="-.11" alt="" />
+      <img src="assets/nailpolish.png" class="decor nail parallax" data-speed=".08" alt="" />
+      <div class="date-huge reveal">
+        <span class="eyebrow">УЧРАШУВ САНАСИ</span>
+        <div class="big-22">22</div>
+        <h3>СЕНТЯБРЬ <em>2026</em></h3>
+        <div class="time-pill">СОАТ <b>13:00</b></div>
+
+        <div class="countdown-wrap" aria-label="Очилишга қолган вақт">
+          <p class="countdown-label">ОЧИЛИШГА ҚОЛДИ</p>
+          <div class="countdown" id="countdown">
+            <div><strong id="days">00</strong><span>КУН</span></div>
+            <div><strong id="hours">00</strong><span>СОАТ</span></div>
+            <div><strong id="minutes">00</strong><span>ДАҚИҚА</span></div>
+            <div><strong id="seconds">00</strong><span>СОНИЯ</span></div>
+          </div>
+          <p class="countdown-done" id="countdownDone" hidden>БАЙРАМ БОШЛАНДИ ✨</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="location section ivory">
+      <img src="assets/location.png" class="decor pin parallax" data-speed=".10" alt="" />
+      <img src="assets/red-rose.png" class="decor rose parallax" data-speed="-.07" alt="" />
+      <div class="content location-content reveal">
+        <span class="section-num">03</span>
+        <p class="eyebrow burgundy">МАНЗИЛ</p>
+        <h3>Сизни Miss <span class="no-break">Milli🍋ns</span> да кутамиз</h3>
+        <address>
+          Сайрам маркази,<br>
+          КХН спорт мажмуаси рўпараси,<br>
+          Мирзахмат ота, 1-қават
+        </address>
+
+        <div class="location-card">
+          <div class="loc-icon">⌖</div>
+          <div><small>ОЧИЛИШ</small><b>22.09.2026 — 13:00</b></div>
+        </div>
+
+        <div class="map-shell">
+          <iframe
+            title="Miss Millions манзили Google Maps"
+            src="https://www.google.com/maps?q=42.300521,69.763652&z=17&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+          <div class="map-shine"></div>
+        </div>
+
+        <div class="map-actions">
+          <a class="map-btn primary" href="https://maps.app.goo.gl/hTDPPWHjJ61hpHfz8" target="_blank" rel="noopener">Google Maps <span>↗</span></a>
+          <a class="map-btn" href="https://2gis.kz/shymkent/geo/22659371324226131/69.763652%2C42.300521" target="_blank" rel="noopener">2GIS <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="finale section dark">
+      <div class="final-shimmer"></div>
+      <img src="assets/pearl.png" class="decor pearl-final p-a" alt="" />
+      <img src="assets/pearl.png" class="decor pearl-final p-b" alt="" />
+      <img src="assets/diamond.png" class="decor diamond-final" alt="" />
+      <div class="final-content reveal">
+        <p class="eyebrow">ТЕЗ ОРАДА КЎРИШАМИЗ</p>
+        <h2 class="brand-font">Miss</h2>
+		<h2 class="brand-font">Milli<span>🍋</span>ns</h2>
+        <p class="final-text">Гўзалликка бағишланган янги тарихнинг биринчи кунини биз билан бирга бошланг.</p>
+        <div class="final-date">22.09.2026 <i></i> 13:00</div>
+        <p class="final-sign">Ҳурмат билан, <strong>Шаҳноза</strong></p>
+      </div>
+    </section>
+  </main>
+
+  <div class="opening-flash" id="openingFlash" aria-hidden="true">
+    <div>
+      <small>ТАБРИКЛАЙМИЗ!</small>
+      <strong class="brand-font">MISS MILLI🍋NS</strong>
+      <span>ЭШИКЛАРИ ОЧИЛДИ</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
